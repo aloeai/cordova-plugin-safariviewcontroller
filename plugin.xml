@@ -37,6 +37,10 @@
     <framework src="SafariServices.framework" weak="true"/>
   </platform>
 
+  <!--
+  ***
+  Disabled. 1.6.0 does not work with Android 8.0.0 and Cordova 9.0.0
+  ***
   <platform name="android">
     <config-file target="config.xml" parent="/*">
       <feature name="SafariViewController">
@@ -58,5 +62,6 @@
     <source-file src="src/android/res/anim/slide_out_left.xml"  target-dir="res/anim" />
     <source-file src="src/android/res/anim/slide_out_right.xml" target-dir="res/anim" />
   </platform>
+  -->
 
 </plugin>
